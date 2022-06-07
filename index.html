@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<!-------------------------head---------------------------->
+<head>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Courgette&family=Inter:wght@300;400;600&family=Karla:wght@200;500;800&family=Noto+Serif:ital@0;1&family=Satisfy&display=swap"
+        rel="stylesheet">
+
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title >Generate A Secure Password </title>
+
+
+</head>
+<!---------------------------body-------------------------------------->
+
+<body>
+<div class="main">
+
+    <div class="hero">
+        <h1>Generate a <br><span id="color"> random password </span> </h1>
+        <h2>Never use an insecure password again.</h2>
+    <div> 
+    <div class="click">  
+        <button class="btn" onclick="generate()"> <img id="img" src="Icon.png"> Generate passwords</button>
+    </div>
+    
+    <div class="border"></div>
+
+    <div class="pass-length"> 
+        <label for="char-legnth" id="char-label">Password Length </label>
+       <input type="number" min="8" max="20" value="" id="char-length">
+    </div>
+
+<!------------------------Password Section--------------------------------------->    
+   
+  
+        <div  class="section" id="sec-a"  onclick="copy('a')" >  <img src ="Icon1.png" class="img1"></div>
+        <div  class="section" id="sec-b"  onclick="copy('b')" >  <img src="Icon1.png" class="img1"></div>
+        <div  class="section" id="sec-c"  onclick="copy('c')" >  <img src="Icon1.png" class="img1"></div>
+        <div  class="section" id="sec-d"  onclick="copy('d')" >  <img src="Icon1.png" class="img1"></div>
+
+</div>
+
+    <script src="script.js"></script>
+</body>
+</html>
