@@ -35,15 +35,15 @@ function copy(sign) {
       navigator.clipboard.writeText(secA.textContent);
       secA.textContent= " Copied to Clipboard " ;
    } 
-   if (sign==='b') {
+   else if (sign==='b') {
       navigator.clipboard.writeText(secB.textContent);
       secB.textContent= " Copied to Clipboard " ;
    } 
-   if (sign==='c') {
+   else if (sign==='c') {
       navigator.clipboard.writeText(secC.textContent);
       secC.textContent= " Copied to Clipboard " ;
    } 
-   if (sign==='d') {
+   else {
       navigator.clipboard.writeText(secD.textContent);
       secD.textContent= " Copied to Clipboard " ;
    } 
